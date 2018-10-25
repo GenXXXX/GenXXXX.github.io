@@ -10,3 +10,19 @@
 #+DESCRIPTION: No description
 
 * Hello, org-page
+
+In the default workflow of /org-page/, =.org= source files and =.html= view files are managed separately 
+in git's =source= and =master= branches. In my repo, I combined them together in =master= branch to avoid 
+ambiguity. Hence, the new workflow is slightly different from the original one:
+
+** New post 
+   Issuing /org-page/'s =op/new-post= command will create a new =.org= file. The location of this file is determined by
+the =category= you specified when you creating it. And the location of its correlated =html= file is determined by 
+the =URI= you specified. For me, I prefer to use =yyyy/mm/dd/post_name= format as the URI of =index.htnl=.
+
+** Publish 
+   To publish the new post, use /org-page/'s =op/do-publication= command. Because =index.html= in repo's root folder
+needs to be overwritten, we should choose to publish to repo's root (not blog folder!). 
+
+** Sync
+   Commit changes and push =master= branch to git, ding, we're done.
