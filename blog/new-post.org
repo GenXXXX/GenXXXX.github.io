@@ -25,4 +25,5 @@ the =URI= you specified. For me, I prefer to use =yyyy/mm/dd/post_name= format a
 needs to be overwritten, we should choose to publish to repo's root (not blog folder!). 
 
 ** Sync
-   Commit changes and push =master= branch to git, ding, we're done.
+   Commit changes and push =master= branch to git, ding, we're done. All commits and pushes can be done automatically by 
+/org-page/ but remember to be careful when you choose the "easy mode".
