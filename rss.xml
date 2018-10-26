@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Gen.X&#39;s Blog</title>
+    <link>https://genxxxx.github.io</link>
+    <description>======&gt; No more knowledge can be extracted from my tellings</description>
+    <pubDate>Fri, 26 Oct 2018 10:27:49 PDT</pubDate>
+    <lastBuildDate>Fri, 26 Oct 2018 10:27:49 PDT</lastBuildDate>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+  </channel>
+</rss>
