@@ -1,0 +1,26 @@
+#+TITLE:       A by-product of OCD
+#+AUTHOR:      Gen Xiang
+#+EMAIL:       gxiang@gxiang.local
+#+DATE:        2018-10-30 Tue
+#+URI:         /blog/2018/10/30/a-by-product-of-ocd
+#+KEYWORDS:    blog, org-page
+#+TAGS:        emacs, org-mode
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: I changed my blog system again
+
+* Org everything[fn:1]
+
+
+* Workflow
+
+| Operation      | Branch | Effect                                                                                            |
+| new-repository | source | create =.org= and =.html= files in =source= and =master= branches                                 |
+| new-post       | source | create new =.org= source                                                                          |
+| commit source  | source | commit source changes before publish                                                              |
+| do-publication | source | remember to publish to repo's root, all related =html= files will be published to =master= branch |
+
+
+* Footnotes
+
+[fn:1] The URI of =.org= file used in =org-page= should be all English characters
