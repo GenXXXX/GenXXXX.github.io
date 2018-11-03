@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术 on Gen.X&#39;s Blog</title>
+    <link>http://GenXXXX.github.io/tags/%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 技术 on Gen.X&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 May 2016 14:44:19 +0000</lastBuildDate>
+    
+	<atom:link href="http://GenXXXX.github.io/tags/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Leave out all the REST</title>
+      <link>http://GenXXXX.github.io/posts/leave-out-all-the-rest/</link>
+      <pubDate>Mon, 09 May 2016 14:44:19 +0000</pubDate>
+      
+      <guid>http://GenXXXX.github.io/posts/leave-out-all-the-rest/</guid>
+      <description>&lt;p&gt;毕设导师在看了我过去的项目经历之后问：&lt;/p&gt;
+
+&lt;p&gt;“你听说过，RESTful，吗？”&lt;/p&gt;
+
+&lt;p&gt;“不知道啊，老师。”&lt;/p&gt;
+
+&lt;p&gt;“我看你过去做过网站，然后你又对移动应用开发感兴趣。但是单纯做App没能解决什么技术性的问题。我觉得你可以考虑做一个构建在REST api之上的通用应用模板，帮助提高移动创业开发的效率。”&lt;/p&gt;
+
+&lt;p&gt;对于一个无从下手的新技术概念，还是需要通过问自己一些本体论问题来入手：&lt;/p&gt;
+
+&lt;p&gt;它是谁？它来自哪里？它为什么存在？&lt;/p&gt;
+
+&lt;p&gt;于是有了这篇科普文。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>一个bug引发的血案</title>
+      <link>http://GenXXXX.github.io/posts/hexo/</link>
+      <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
+      
+      <guid>http://GenXXXX.github.io/posts/hexo/</guid>
+      <description>&lt;p&gt;前天中午醒来邮箱收到WordPress的推送：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;嗨！您位于 &lt;a href=&#34;http://www.xianggen.info&#34;&gt;http://www.xianggen.info&lt;/a&gt; 的站点已被成功升级到WordPress 4.3.4。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;“しまった！”我心想。&lt;/p&gt;
+
+&lt;p&gt;输入域名，果不其然看到一行报错：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Fatal Error： Redeclared class WP_Tax_Query at &amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;类名重定义，而且是一份庞大且我几乎没仔细研究过的代码。结局很明显：我的个人站点的后台崩掉了。&lt;/p&gt;
+
+&lt;p&gt;按照故事的正常逻辑，接下来应该是我苦心孤诣debug最终成功经过一日一夜的骚受挠头把网站恢复了。然而不是这样。很多情况下，修轮子的时间成本要比造轮子高不少，所以这次我决定借别人家的图纸再造一个轮子。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

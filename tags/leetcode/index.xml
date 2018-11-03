@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leetcode on Gen.X&#39;s Blog</title>
+    <link>http://GenXXXX.github.io/tags/leetcode/</link>
+    <description>Recent content in Leetcode on Gen.X&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Dec 2017 00:14:19 -0700</lastBuildDate>
+    
+	<atom:link href="http://GenXXXX.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>System Design 学习上手</title>
+      <link>http://GenXXXX.github.io/posts/systemdesign/</link>
+      <pubDate>Thu, 28 Dec 2017 00:14:19 -0700</pubDate>
+      
+      <guid>http://GenXXXX.github.io/posts/systemdesign/</guid>
+      <description>&lt;p&gt;总有一些犀利的公司试图用System Design来考察new grad的即战力，还是得准备一个。先以设计Twitter为例：&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LeetCode | 利用HashMap实现O(n)时间的算法</title>
+      <link>http://GenXXXX.github.io/posts/hashmap/</link>
+      <pubDate>Fri, 08 Dec 2017 22:11:44 +0000</pubDate>
+      
+      <guid>http://GenXXXX.github.io/posts/hashmap/</guid>
+      <description>&lt;p&gt;一日，$E^{6}X$和我说，“你看着越来越没有程序猿气质了”。我顿时感到警觉，翻了翻之前的Blog，尽是书评影评小说摘抄，像初三女生的QQ空间，连非主流自拍都没有的那种。摸摸头顶，与宇宙演进截然相反的熵减趋势时刻提醒我作为码农的阶级属性。&lt;/p&gt;
+
+&lt;p&gt;“得写点技术博客了。”我想。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
