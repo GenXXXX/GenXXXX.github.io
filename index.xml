@@ -1,31 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gen.X&#39;s Blog</title>
+    <title>白马灰马</title>
     <link>https://GenXXXX.github.io/</link>
-    <description>Recent content on Gen.X&#39;s Blog</description>
+    <description>Recent content on 白马灰马</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Nov 2018 14:34:13 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 03 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://GenXXXX.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About</title>
+      <link>https://GenXXXX.github.io/about/</link>
+      <pubDate>Sat, 03 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://GenXXXX.github.io/about/</guid>
+      <description>{ &amp;#34;name&amp;#34;: &amp;#34;Gen X&amp;#34;, &amp;#34;location&amp;#34;: &amp;#34;Seattle&amp;#34;, &amp;#34;interests&amp;#34;: [&amp;#34;skateboarding&amp;#34;, &amp;#34;jojo&amp;#34;, &amp;#34;jogging&amp;#34;, &amp;#34;emacser&amp;#34;], &amp;#34;github&amp;#34;: &amp;#34;https://github.com/GenXXXX&amp;#34;, &amp;#34;email&amp;#34;: &amp;#34;regulus.xiang AT outlook.com&amp;#34; } 可这样一个骄傲自大的肢体，要怎么才能找到你？
+  </description>
+    </item>
+    
+    <item>
       <title>一个控制欲的附庸</title>
-      <link>https://GenXXXX.github.io/posts/%E4%B8%80%E4%B8%AA%E6%8E%A7%E5%88%B6%E6%AC%B2%E7%9A%84%E9%99%84%E5%BA%B8/</link>
+      <link>https://GenXXXX.github.io/journal/%E4%B8%80%E4%B8%AA%E6%8E%A7%E5%88%B6%E6%AC%B2%E7%9A%84%E9%99%84%E5%BA%B8/</link>
       <pubDate>Fri, 02 Nov 2018 14:34:13 -0700</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E4%B8%80%E4%B8%AA%E6%8E%A7%E5%88%B6%E6%AC%B2%E7%9A%84%E9%99%84%E5%BA%B8/</guid>
-      <description>Hello, Org </description>
+      <guid>https://GenXXXX.github.io/journal/%E4%B8%80%E4%B8%AA%E6%8E%A7%E5%88%B6%E6%AC%B2%E7%9A%84%E9%99%84%E5%BA%B8/</guid>
+      <description>我把博客移植到了Hugo框架，依然是静态生成页面然后部署在Github Pages。目的很单纯，我要完全活在*org-mode*的控制之下。</description>
     </item>
     
     <item>
       <title>克苏鲁的二向箔</title>
-      <link>https://GenXXXX.github.io/posts/%E5%85%8B%E8%8B%8F%E9%B2%81%E7%9A%84%E4%BA%8C%E5%90%91%E7%AE%94/</link>
+      <link>https://GenXXXX.github.io/journal/%E5%85%8B%E8%8B%8F%E9%B2%81%E7%9A%84%E4%BA%8C%E5%90%91%E7%AE%94/</link>
       <pubDate>Fri, 26 Jan 2018 00:14:19 -0700</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E5%85%8B%E8%8B%8F%E9%B2%81%E7%9A%84%E4%BA%8C%E5%90%91%E7%AE%94/</guid>
+      <guid>https://GenXXXX.github.io/journal/%E5%85%8B%E8%8B%8F%E9%B2%81%E7%9A%84%E4%BA%8C%E5%90%91%E7%AE%94/</guid>
       <description>&lt;p&gt;阅读对于我的价值在于维持自身旁观者的心态，纽约的繁弦急管式生活节奏，往往引人进入当局者迷的困境。只专注于当下要做什么的schedule确实优于惹人焦虑的to-do-list，不过书籍带来的外源性生活体验好比Joey在性爱时想着Chandler，才不至于沉迷当下、了事太早。我还不希望生活中失去文学性的慰藉和张望，所以想在2018年进行有计划的阅读，目标可以定得低一点，一年看12本书就好。&lt;/p&gt;
 
 &lt;p&gt;今年的第一本书是《三体》系列的第三部《死神永生》。&lt;/p&gt;
@@ -35,10 +45,10 @@
     
     <item>
       <title>System Design 学习上手</title>
-      <link>https://GenXXXX.github.io/posts/systemdesign/</link>
+      <link>https://GenXXXX.github.io/hack/systemdesign/</link>
       <pubDate>Thu, 28 Dec 2017 00:14:19 -0700</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/systemdesign/</guid>
+      <guid>https://GenXXXX.github.io/hack/systemdesign/</guid>
       <description>&lt;p&gt;总有一些犀利的公司试图用System Design来考察new grad的即战力，还是得准备一个。先以设计Twitter为例：&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -46,10 +56,10 @@
     
     <item>
       <title>Operating Systems 知识速记</title>
-      <link>https://GenXXXX.github.io/posts/os/</link>
+      <link>https://GenXXXX.github.io/hack/os/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/os/</guid>
+      <guid>https://GenXXXX.github.io/hack/os/</guid>
       <description>0. Concepts Process: Program under execution
 Thread: Smallest sequence of programmed instructions
 Virtual Memory: the memory as viewed by the process. Each process believes it has a contiguous chunk of memory starting at location zero (Truman&amp;rsquo;s virtual memory).
@@ -59,10 +69,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>LeetCode | 利用HashMap实现O(n)时间的算法</title>
-      <link>https://GenXXXX.github.io/posts/hashmap/</link>
+      <link>https://GenXXXX.github.io/hack/hashmap/</link>
       <pubDate>Fri, 08 Dec 2017 22:11:44 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/hashmap/</guid>
+      <guid>https://GenXXXX.github.io/hack/hashmap/</guid>
       <description>&lt;p&gt;一日，$E^{6}X$和我说，“你看着越来越没有程序猿气质了”。我顿时感到警觉，翻了翻之前的Blog，尽是书评影评小说摘抄，像初三女生的QQ空间，连非主流自拍都没有的那种。摸摸头顶，与宇宙演进截然相反的熵减趋势时刻提醒我作为码农的阶级属性。&lt;/p&gt;
 
 &lt;p&gt;“得写点技术博客了。”我想。&lt;/p&gt;
@@ -72,10 +82,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>What we talk about when we talk about Hedging</title>
-      <link>https://GenXXXX.github.io/posts/hedge/</link>
+      <link>https://GenXXXX.github.io/hack/hedge/</link>
       <pubDate>Tue, 28 Feb 2017 00:14:19 -0700</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/hedge/</guid>
+      <guid>https://GenXXXX.github.io/hack/hedge/</guid>
       <description>&lt;p&gt;After a 4-hour meeting with Joel, I finally understood the basic ideas about how the so called hedging works. Although I&amp;rsquo;m not going to do a data scientist&amp;rsquo;s work, however, in review of the automatic trading platform I&amp;rsquo;m about to build, it&amp;rsquo;s supposed that I get a rough idea about the mechanisms of a hedge fund. So here are some of my memos.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -83,10 +93,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>Walk Through the Meanlingless</title>
-      <link>https://GenXXXX.github.io/posts/meanlingless/</link>
+      <link>https://GenXXXX.github.io/journal/meanlingless/</link>
       <pubDate>Sat, 12 Nov 2016 00:29:53 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/meanlingless/</guid>
+      <guid>https://GenXXXX.github.io/journal/meanlingless/</guid>
       <description>&lt;p&gt;和好友才看完Billy Lynn&amp;rsquo;s Long Halftime Walk。&lt;/p&gt;
 
 &lt;p&gt;來紐約之後一個人看的第一部電影是李安的《飲食男女》，由此開始喜歡做菜一發不可收。個人體驗上，他執導的片子匠氣重、情感表達方式細膩、强調細節對人物形象的構建作用。《斷背山》裏Heath Ledger和愛人分別后極度痛苦地乾嘔，《色戒》裏易先生高潮時不願直視、頭錯開抱緊王佳芝后的顫慄，還有《推手》中郎雄和陳太太在China Town“有事嗎”“沒事沒事”的夕陽紅式寒暄，都是我觀影體驗裏過目難忘的場景橋段。不過從少年PI開始，李安更多把力氣放在技術性嘗試上，似乎有意無意地讓原先這些關乎“匠氣”的個人標簽逐漸剝落。好在這一次的技術試驗沒有分散我的注意，總的説來，我喜歡這部電影。&lt;/p&gt;
@@ -96,10 +106,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>MET名画：预览、简介及坐标</title>
-      <link>https://GenXXXX.github.io/posts/met/</link>
+      <link>https://GenXXXX.github.io/journal/met/</link>
       <pubDate>Thu, 01 Sep 2016 21:46:55 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/met/</guid>
+      <guid>https://GenXXXX.github.io/journal/met/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://maps.metmuseum.org/&#34;&gt;Official Map&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;salvador-dali-the-accommodations-of-desire&#34;&gt;Salvador Dali: The Accommodations of Desire&lt;/h2&gt;
@@ -111,10 +121,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>万段</title>
-      <link>https://GenXXXX.github.io/posts/%E4%B8%87%E6%AE%B5/</link>
+      <link>https://GenXXXX.github.io/journal/%E4%B8%87%E6%AE%B5/</link>
       <pubDate>Sun, 07 Aug 2016 00:14:19 -0700</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E4%B8%87%E6%AE%B5/</guid>
+      <guid>https://GenXXXX.github.io/journal/%E4%B8%87%E6%AE%B5/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;1996年1月10日，星期三，一位刚入学不久的名叫刁爱青的南京大学女生，在鼓楼校区附近的青岛路失踪，9天之后的1月19日，她被分尸的遗骸在南京闹市区的多处被发现，这便是著名的南大“1.19”碎尸案。&lt;/p&gt;
 
@@ -127,34 +137,30 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     </item>
     
     <item>
-      <title>Leave out all the REST</title>
-      <link>https://GenXXXX.github.io/posts/leave-out-all-the-rest/</link>
-      <pubDate>Mon, 09 May 2016 14:44:19 +0000</pubDate>
+      <title>不协调的和单向度的</title>
+      <link>https://GenXXXX.github.io/journal/%E4%B8%8D%E5%8D%8F%E8%B0%83%E7%9A%84%E5%92%8C%E5%8D%95%E5%90%91%E5%BA%A6%E7%9A%84/</link>
+      <pubDate>Tue, 10 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/leave-out-all-the-rest/</guid>
-      <description>&lt;p&gt;毕设导师在看了我过去的项目经历之后问：&lt;/p&gt;
+      <guid>https://GenXXXX.github.io/journal/%E4%B8%8D%E5%8D%8F%E8%B0%83%E7%9A%84%E5%92%8C%E5%8D%95%E5%90%91%E5%BA%A6%E7%9A%84/</guid>
+      <description>&lt;blockquote&gt;这是我2016年50本阅读计划的第一本书，蒋延黼的《中国近代史》的读书笔记。&lt;/blockquote&gt;
 
-&lt;p&gt;“你听说过，RESTful，吗？”&lt;/p&gt;
+&lt;h2 id=&#34;不协调的趣味&#34;&gt;不协调的趣味&lt;/h2&gt;
 
-&lt;p&gt;“不知道啊，老师。”&lt;/p&gt;
+&lt;p&gt;在2015年末看日本NHK的第66届红白歌会，我被椎名林檎吸引到了。虽然早有耳闻，但还是第一次看到她的演唱实录:&lt;/p&gt;
 
-&lt;p&gt;“我看你过去做过网站，然后你又对移动应用开发感兴趣。但是单纯做App没能解决什么技术性的问题。我觉得你可以考虑做一个构建在REST api之上的通用应用模板，帮助提高移动创业开发的效率。”&lt;/p&gt;
+&lt;p&gt;一个身着洗朱色和服的细眼女子，留着齐耳短发。她站在立式麦克风前，抱着贝司唱着摇滚乐，音色纤细却高亢。&lt;/p&gt;
 
-&lt;p&gt;对于一个无从下手的新技术概念，还是需要通过问自己一些本体论问题来入手：&lt;/p&gt;
-
-&lt;p&gt;它是谁？它来自哪里？它为什么存在？&lt;/p&gt;
-
-&lt;p&gt;于是有了这篇科普文。&lt;/p&gt;
+&lt;p&gt;椎名林檎的形象在我看来是现代日本文化吸引力的核心。古典的日式美学和西洋风潮结合，在近乎二元对立的不协调里，酿造出一种美妙的协调感。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>一个bug引发的血案</title>
-      <link>https://GenXXXX.github.io/posts/hexo/</link>
+      <link>https://GenXXXX.github.io/hack/hexo/</link>
       <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/hexo/</guid>
+      <guid>https://GenXXXX.github.io/hack/hexo/</guid>
       <description>&lt;p&gt;前天中午醒来邮箱收到WordPress的推送：&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -177,64 +183,84 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     </item>
     
     <item>
-      <title>不协调的和单向度的</title>
-      <link>https://GenXXXX.github.io/posts/%E4%B8%8D%E5%8D%8F%E8%B0%83%E7%9A%84%E5%92%8C%E5%8D%95%E5%90%91%E5%BA%A6%E7%9A%84/</link>
+      <title>岛</title>
+      <link>https://GenXXXX.github.io/journal/%E5%B2%9B/</link>
       <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E4%B8%8D%E5%8D%8F%E8%B0%83%E7%9A%84%E5%92%8C%E5%8D%95%E5%90%91%E5%BA%A6%E7%9A%84/</guid>
-      <description>&lt;blockquote&gt;这是我2016年50本阅读计划的第一本书，蒋延黼的《中国近代史》的读书笔记。&lt;/blockquote&gt;
+      <guid>https://GenXXXX.github.io/journal/%E5%B2%9B/</guid>
+      <description>&lt;p&gt;&lt;blockquote&gt;&lt;sup&gt;16&lt;/sup&gt;&amp;frasl;&lt;sub&gt;50&lt;/sub&gt;&lt;/blockquote&gt;
+他们把手 伸进喉咙&lt;/p&gt;
 
-&lt;h2 id=&#34;不协调的趣味&#34;&gt;不协调的趣味&lt;/h2&gt;
+&lt;p&gt;扯出话语 夹进书页&lt;/p&gt;
 
-&lt;p&gt;在2015年末看日本NHK的第66届红白歌会，我被椎名林檎吸引到了。虽然早有耳闻，但还是第一次看到她的演唱实录:&lt;/p&gt;
+&lt;p&gt;为了交流 你端起捆绑的竹片&lt;/p&gt;
 
-&lt;p&gt;一个身着洗朱色和服的细眼女子，留着齐耳短发。她站在立式麦克风前，抱着贝司唱着摇滚乐，音色纤细却高亢。&lt;/p&gt;
+&lt;p&gt;或是被卷入白纸黑字的棋局&lt;/p&gt;
 
-&lt;p&gt;椎名林檎的形象在我看来是现代日本文化吸引力的核心。古典的日式美学和西洋风潮结合，在近乎二元对立的不协调里，酿造出一种美妙的协调感。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>九份</title>
-      <link>https://GenXXXX.github.io/posts/%E4%B9%9D%E4%BB%BD/</link>
+      <title>幼稚硬汉和复古船长</title>
+      <link>https://GenXXXX.github.io/journal/%E5%B9%BC%E7%A8%9A%E7%A1%AC%E6%B1%89%E5%92%8C%E5%A4%8D%E5%8F%A4%E8%88%B9%E9%95%BF/</link>
       <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E4%B9%9D%E4%BB%BD/</guid>
-      <description>&lt;p&gt;看完【海街日记】，心情不错，在阳台抽烟。&lt;/p&gt;
+      <guid>https://GenXXXX.github.io/journal/%E5%B9%BC%E7%A8%9A%E7%A1%AC%E6%B1%89%E5%92%8C%E5%A4%8D%E5%8F%A4%E8%88%B9%E9%95%BF/</guid>
+      <description>&lt;p&gt;&lt;blockquote&gt;&lt;sup&gt;17&lt;/sup&gt;&amp;frasl;&lt;sub&gt;50&lt;/sub&gt;~&lt;sup&gt;20&lt;/sup&gt;&amp;frasl;&lt;sub&gt;50&lt;/sub&gt;&lt;/blockquote&gt;
+受台湾作家唐诺的指引，最近读了4本书:海明威《渡河入林》、库斯勒《正午的黑暗》、康拉德《黑暗的心》、契诃夫选集《发现契诃夫》。第一、第三本有感。&lt;/p&gt;
 
-&lt;p&gt;看到夜风把尚在燃烧的烟灰吹成飞扬的火星，突然感到此时此地是一个极为熟悉、似曾相识的场景。有时候人辨认自己所在场合的感官途径，并不仅仅受限于视觉所见，因为嗅觉触觉温度湿度甚至磁场，都是记忆总体的子集。&lt;/p&gt;
-
-&lt;p&gt;所以说日历翻到立春我不会认账，非得等到走在路上，暖风拂面背后渍有汗汽，春装显厚，同时风中还夹杂新芽在指间搓碎的草木气息——这时候，我会想：到春天啦。&lt;/p&gt;
-
-&lt;p&gt;于是我知道，这时的风和烟味，发端自九份的夜晚。&lt;/p&gt;
+&lt;p&gt;海明威和康拉德是两个本人较之作品具有更大可讨论空间的人，有趣之处在于我们对于作家的既成印象往往来自于他们的作品，而单纯凭借作家创作生涯的其中几本是无法看清其进化图纸的。所以对于我们熟悉到不能再熟悉的海明威，以及我们或许不那么熟悉的康拉德，这里可以聊聊：&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>也来自豪一次</title>
-      <link>https://GenXXXX.github.io/posts/%E4%B9%9F%E6%9D%A5%E8%87%AA%E8%B1%AA%E4%B8%80%E6%AC%A1/</link>
+      <title>献给阿尔囧的花束</title>
+      <link>https://GenXXXX.github.io/journal/%E7%8C%AE%E7%BB%99%E9%98%BF%E5%B0%94%E5%9B%A7%E7%9A%84%E8%8A%B1%E6%9D%9F/</link>
       <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E4%B9%9F%E6%9D%A5%E8%87%AA%E8%B1%AA%E4%B8%80%E6%AC%A1/</guid>
-      <description>&lt;p&gt;最近我感到自己的内环境出现了很大的问题。&lt;/p&gt;
+      <guid>https://GenXXXX.github.io/journal/%E7%8C%AE%E7%BB%99%E9%98%BF%E5%B0%94%E5%9B%A7%E7%9A%84%E8%8A%B1%E6%9D%9F/</guid>
+      <description>&lt;p&gt;&lt;blockquote&gt;&lt;sup&gt;15&lt;/sup&gt;&amp;frasl;&lt;sub&gt;50&lt;/sub&gt;&lt;/blockquote&gt;
+首先诚挚地道个歉：在上一篇博文post之后，有不下于五个人跟我诉苦，说读不下去我的文章。对此，我在咨询意见之后，对自己的写作习惯有了一些反思：
+&lt;ul&gt;
+    &lt;li&gt;近乎自媚的过度自我中心表达，使用大量疑问句和告慰句以表达自己内心的思维过程，使文章信噪比下降；&lt;/li&gt;
+    &lt;li&gt;不考虑写出来的东西原来有读者阅读，对于书籍内容倾向于详细表述而不去化繁为简；&lt;/li&gt;
+    &lt;li&gt;大量炫技式的修辞使用显得幼稚而造作。&lt;/li&gt;
+&lt;/ul&gt;
+这些我以后会尽可能避免，开始用博客记录自己的年度阅读计划之后，我只是惯性地去记录自己在读完一本书之后的所感所获，基本不曾考虑出于书籍选择目的或是碎片阅读需求的读者感受——我自己非常痛恨一切希望将自己放置在他人社交生活中心的“自媚”行为，所以以上所述，我会改。&lt;/p&gt;
 
-&lt;p&gt;我感到自己变得越来越难于被取悦。这个说法或许很喜感，但是事实是，就像帕格尼尼不会因为自己会拉24首随想曲而获得成就感那样，我变得不容易因曾经使自己开心兴奋的事物而开心兴奋。&lt;/p&gt;
+&lt;p&gt;聊聊第15本书，《献给阿尔吉侬的花束》。&lt;/p&gt;
 
-&lt;p&gt;一个基友说：你这是阈值过高。&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>疯魔的凡人</title>
+      <link>https://GenXXXX.github.io/journal/%E7%96%AF%E9%AD%94%E7%9A%84%E5%87%A1%E4%BA%BA/</link>
+      <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
+      
+      <guid>https://GenXXXX.github.io/journal/%E7%96%AF%E9%AD%94%E7%9A%84%E5%87%A1%E4%BA%BA/</guid>
+      <description>&lt;p&gt;我在寻找一种死亡的方式。&lt;/p&gt;
 
-&lt;p&gt;或许真是如此。当《咒怨2》里被拽下下颚的女孩朝屏幕转过脸来时，我的关注点在于她的下齿不合常理地仍然挂在脸上。&lt;/p&gt;
+&lt;p&gt;大概和你所想象的内容有些出入。不是儿孙满座、伏卧床头、湿衫呼嚎，不是古刹寒灯、面佛合十、矗而归寂，也不是玻璃幕墙、层楼之上、纵身一跃。这么想，不是我想要表达的意思，你大概被我的字面说法迷惑了。&lt;/p&gt;
+
+&lt;p&gt;死亡不是一夕一瞬，不是离散的事件坐标，他就像早上穿过窗户透进的晨光，就像这光束里的微尘，就像这些微尘的布朗运动——不事声息却贯穿始终，那是你不曾留意的死亡。&lt;/p&gt;
+
+&lt;p&gt;死亡正在进行。死亡永生不灭。&lt;/p&gt;
+
+&lt;p&gt;于是你明白我的意思了，死亡的方式其实是走向终点的方式，是生存的方式。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>他们默默走着，却听不到自己的沉默</title>
-      <link>https://GenXXXX.github.io/posts/%E4%BB%96%E4%BB%AC%E9%BB%98%E9%BB%98%E8%B5%B0%E7%9D%80%E5%8D%B4%E5%90%AC%E4%B8%8D%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E6%B2%89%E9%BB%98/</link>
-      <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
+      <link>https://GenXXXX.github.io/journal/%E4%BB%96%E4%BB%AC%E9%BB%98%E9%BB%98%E8%B5%B0%E7%9D%80%E5%8D%B4%E5%90%AC%E4%B8%8D%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E6%B2%89%E9%BB%98/</link>
+      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E4%BB%96%E4%BB%AC%E9%BB%98%E9%BB%98%E8%B5%B0%E7%9D%80%E5%8D%B4%E5%90%AC%E4%B8%8D%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E6%B2%89%E9%BB%98/</guid>
+      <guid>https://GenXXXX.github.io/journal/%E4%BB%96%E4%BB%AC%E9%BB%98%E9%BB%98%E8%B5%B0%E7%9D%80%E5%8D%B4%E5%90%AC%E4%B8%8D%E5%88%B0%E8%87%AA%E5%B7%B1%E7%9A%84%E6%B2%89%E9%BB%98/</guid>
       <description>&lt;p&gt;&lt;blockquote&gt;&lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;50&lt;/sub&gt; 《不能承受的生命之轻》&lt;/blockquote&gt;
 当我打开word——缓缓把左手无名指中指食指分别放在EDC键上，右手的这三根指头则放在IJN键上，继而两个大拇指放在空格键上，两侧小指呈自然放松状态——骤然加速开始打字时，我就知道自己已经陷入昆德拉所嘲笑的媚俗了。&lt;/p&gt;
 
@@ -258,46 +284,28 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     </item>
     
     <item>
-      <title>岛</title>
-      <link>https://GenXXXX.github.io/posts/%E5%B2%9B/</link>
-      <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
+      <title>九份</title>
+      <link>https://GenXXXX.github.io/journal/%E4%B9%9D%E4%BB%BD/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E5%B2%9B/</guid>
-      <description>&lt;p&gt;&lt;blockquote&gt;&lt;sup&gt;16&lt;/sup&gt;&amp;frasl;&lt;sub&gt;50&lt;/sub&gt;&lt;/blockquote&gt;
-他们把手 伸进喉咙&lt;/p&gt;
+      <guid>https://GenXXXX.github.io/journal/%E4%B9%9D%E4%BB%BD/</guid>
+      <description>&lt;p&gt;看完【海街日记】，心情不错，在阳台抽烟。&lt;/p&gt;
 
-&lt;p&gt;扯出话语 夹进书页&lt;/p&gt;
+&lt;p&gt;看到夜风把尚在燃烧的烟灰吹成飞扬的火星，突然感到此时此地是一个极为熟悉、似曾相识的场景。有时候人辨认自己所在场合的感官途径，并不仅仅受限于视觉所见，因为嗅觉触觉温度湿度甚至磁场，都是记忆总体的子集。&lt;/p&gt;
 
-&lt;p&gt;为了交流 你端起捆绑的竹片&lt;/p&gt;
+&lt;p&gt;所以说日历翻到立春我不会认账，非得等到走在路上，暖风拂面背后渍有汗汽，春装显厚，同时风中还夹杂新芽在指间搓碎的草木气息——这时候，我会想：到春天啦。&lt;/p&gt;
 
-&lt;p&gt;或是被卷入白纸黑字的棋局&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>崩塌的乌托邦</title>
-      <link>https://GenXXXX.github.io/posts/%E5%B4%A9%E5%A1%8C%E7%9A%84%E4%B9%8C%E6%89%98%E9%82%A6/</link>
-      <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
-      
-      <guid>https://GenXXXX.github.io/posts/%E5%B4%A9%E5%A1%8C%E7%9A%84%E4%B9%8C%E6%89%98%E9%82%A6/</guid>
-      <description>&lt;blockquote&gt;记于13年末，文中凡涉及意识形态的论点都是乔治-奥威尔的设想，与日志发布者无关&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;一&#34;&gt;一&lt;/h2&gt;
-
-&lt;p&gt;不知道是不是每个人都和我曾经一样，相信一种愿景：关于社会进化及人类进步、乌托邦或桃花源。那两个下颚毛发异常繁密的男人为我们勾画过一个十足诱人的图景，原始奴隶社会进化为封建，再者资本社会，进而共产主义，最后天下大同。指引这一系列变化的要因，美其名曰“社会生产力”，即“人类创造物质和精神文明产品的能力”。是的，我曾对此图景深信不疑。&lt;/p&gt;
+&lt;p&gt;于是我知道，这时的风和烟味，发端自九份的夜晚。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>布罗茨基的阅读方式及其他</title>
-      <link>https://GenXXXX.github.io/posts/%E5%B8%83%E7%BD%97%E8%8C%A8%E5%9F%BA%E7%9A%84%E9%98%85%E8%AF%BB%E6%96%B9%E5%BC%8F%E5%8F%8A%E5%85%B6%E4%BB%96/</link>
-      <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
+      <link>https://GenXXXX.github.io/journal/%E5%B8%83%E7%BD%97%E8%8C%A8%E5%9F%BA%E7%9A%84%E9%98%85%E8%AF%BB%E6%96%B9%E5%BC%8F%E5%8F%8A%E5%85%B6%E4%BB%96/</link>
+      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E5%B8%83%E7%BD%97%E8%8C%A8%E5%9F%BA%E7%9A%84%E9%98%85%E8%AF%BB%E6%96%B9%E5%BC%8F%E5%8F%8A%E5%85%B6%E4%BB%96/</guid>
+      <guid>https://GenXXXX.github.io/journal/%E5%B8%83%E7%BD%97%E8%8C%A8%E5%9F%BA%E7%9A%84%E9%98%85%E8%AF%BB%E6%96%B9%E5%BC%8F%E5%8F%8A%E5%85%B6%E4%BB%96/</guid>
       <description>&lt;blockquote&gt;3/50~14/50&lt;/blockquote&gt;
 
 &lt;p&gt;无从下笔。&lt;/p&gt;
@@ -312,64 +320,51 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     </item>
     
     <item>
-      <title>幼稚硬汉和复古船长</title>
-      <link>https://GenXXXX.github.io/posts/%E5%B9%BC%E7%A8%9A%E7%A1%AC%E6%B1%89%E5%92%8C%E5%A4%8D%E5%8F%A4%E8%88%B9%E9%95%BF/</link>
-      <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
+      <title>Leave out all the REST</title>
+      <link>https://GenXXXX.github.io/hack/leave-out-all-the-rest/</link>
+      <pubDate>Tue, 10 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E5%B9%BC%E7%A8%9A%E7%A1%AC%E6%B1%89%E5%92%8C%E5%A4%8D%E5%8F%A4%E8%88%B9%E9%95%BF/</guid>
-      <description>&lt;p&gt;&lt;blockquote&gt;&lt;sup&gt;17&lt;/sup&gt;&amp;frasl;&lt;sub&gt;50&lt;/sub&gt;~&lt;sup&gt;20&lt;/sup&gt;&amp;frasl;&lt;sub&gt;50&lt;/sub&gt;&lt;/blockquote&gt;
-受台湾作家唐诺的指引，最近读了4本书:海明威《渡河入林》、库斯勒《正午的黑暗》、康拉德《黑暗的心》、契诃夫选集《发现契诃夫》。第一、第三本有感。&lt;/p&gt;
+      <guid>https://GenXXXX.github.io/hack/leave-out-all-the-rest/</guid>
+      <description>&lt;p&gt;毕设导师在看了我过去的项目经历之后问：&lt;/p&gt;
 
-&lt;p&gt;海明威和康拉德是两个本人较之作品具有更大可讨论空间的人，有趣之处在于我们对于作家的既成印象往往来自于他们的作品，而单纯凭借作家创作生涯的其中几本是无法看清其进化图纸的。所以对于我们熟悉到不能再熟悉的海明威，以及我们或许不那么熟悉的康拉德，这里可以聊聊：&lt;/p&gt;
+&lt;p&gt;“你听说过，RESTful，吗？”&lt;/p&gt;
+
+&lt;p&gt;“不知道啊，老师。”&lt;/p&gt;
+
+&lt;p&gt;“我看你过去做过网站，然后你又对移动应用开发感兴趣。但是单纯做App没能解决什么技术性的问题。我觉得你可以考虑做一个构建在REST api之上的通用应用模板，帮助提高移动创业开发的效率。”&lt;/p&gt;
+
+&lt;p&gt;对于一个无从下手的新技术概念，还是需要通过问自己一些本体论问题来入手：&lt;/p&gt;
+
+&lt;p&gt;它是谁？它来自哪里？它为什么存在？&lt;/p&gt;
+
+&lt;p&gt;于是有了这篇科普文。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>献给阿尔囧的花束</title>
-      <link>https://GenXXXX.github.io/posts/%E7%8C%AE%E7%BB%99%E9%98%BF%E5%B0%94%E5%9B%A7%E7%9A%84%E8%8A%B1%E6%9D%9F/</link>
-      <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
+      <title>也来自豪一次</title>
+      <link>https://GenXXXX.github.io/journal/%E4%B9%9F%E6%9D%A5%E8%87%AA%E8%B1%AA%E4%B8%80%E6%AC%A1/</link>
+      <pubDate>Thu, 22 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E7%8C%AE%E7%BB%99%E9%98%BF%E5%B0%94%E5%9B%A7%E7%9A%84%E8%8A%B1%E6%9D%9F/</guid>
-      <description>&lt;p&gt;&lt;blockquote&gt;&lt;sup&gt;15&lt;/sup&gt;&amp;frasl;&lt;sub&gt;50&lt;/sub&gt;&lt;/blockquote&gt;
-首先诚挚地道个歉：在上一篇博文post之后，有不下于五个人跟我诉苦，说读不下去我的文章。对此，我在咨询意见之后，对自己的写作习惯有了一些反思：
-&lt;ul&gt;
-    &lt;li&gt;近乎自媚的过度自我中心表达，使用大量疑问句和告慰句以表达自己内心的思维过程，使文章信噪比下降；&lt;/li&gt;
-    &lt;li&gt;不考虑写出来的东西原来有读者阅读，对于书籍内容倾向于详细表述而不去化繁为简；&lt;/li&gt;
-    &lt;li&gt;大量炫技式的修辞使用显得幼稚而造作。&lt;/li&gt;
-&lt;/ul&gt;
-这些我以后会尽可能避免，开始用博客记录自己的年度阅读计划之后，我只是惯性地去记录自己在读完一本书之后的所感所获，基本不曾考虑出于书籍选择目的或是碎片阅读需求的读者感受——我自己非常痛恨一切希望将自己放置在他人社交生活中心的“自媚”行为，所以以上所述，我会改。&lt;/p&gt;
+      <guid>https://GenXXXX.github.io/journal/%E4%B9%9F%E6%9D%A5%E8%87%AA%E8%B1%AA%E4%B8%80%E6%AC%A1/</guid>
+      <description>&lt;p&gt;最近我感到自己的内环境出现了很大的问题。&lt;/p&gt;
 
-&lt;p&gt;聊聊第15本书，《献给阿尔吉侬的花束》。&lt;/p&gt;
+&lt;p&gt;我感到自己变得越来越难于被取悦。这个说法或许很喜感，但是事实是，就像帕格尼尼不会因为自己会拉24首随想曲而获得成就感那样，我变得不容易因曾经使自己开心兴奋的事物而开心兴奋。&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>疯魔的凡人</title>
-      <link>https://GenXXXX.github.io/posts/%E7%96%AF%E9%AD%94%E7%9A%84%E5%87%A1%E4%BA%BA/</link>
-      <pubDate>Mon, 09 May 2016 00:14:19 -0700</pubDate>
-      
-      <guid>https://GenXXXX.github.io/posts/%E7%96%AF%E9%AD%94%E7%9A%84%E5%87%A1%E4%BA%BA/</guid>
-      <description>&lt;p&gt;我在寻找一种死亡的方式。&lt;/p&gt;
+&lt;p&gt;一个基友说：你这是阈值过高。&lt;/p&gt;
 
-&lt;p&gt;大概和你所想象的内容有些出入。不是儿孙满座、伏卧床头、湿衫呼嚎，不是古刹寒灯、面佛合十、矗而归寂，也不是玻璃幕墙、层楼之上、纵身一跃。这么想，不是我想要表达的意思，你大概被我的字面说法迷惑了。&lt;/p&gt;
-
-&lt;p&gt;死亡不是一夕一瞬，不是离散的事件坐标，他就像早上穿过窗户透进的晨光，就像这光束里的微尘，就像这些微尘的布朗运动——不事声息却贯穿始终，那是你不曾留意的死亡。&lt;/p&gt;
-
-&lt;p&gt;死亡正在进行。死亡永生不灭。&lt;/p&gt;
-
-&lt;p&gt;于是你明白我的意思了，死亡的方式其实是走向终点的方式，是生存的方式。&lt;/p&gt;
+&lt;p&gt;或许真是如此。当《咒怨2》里被拽下下颚的女孩朝屏幕转过脸来时，我的关注点在于她的下齿不合常理地仍然挂在脸上。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>太宰治的白鞋子</title>
-      <link>https://GenXXXX.github.io/posts/%E5%A4%AA%E5%AE%B0%E6%B2%BB%E7%9A%84%E7%99%BD%E9%9E%8B%E5%AD%90/</link>
+      <link>https://GenXXXX.github.io/journal/%E5%A4%AA%E5%AE%B0%E6%B2%BB%E7%9A%84%E7%99%BD%E9%9E%8B%E5%AD%90/</link>
       <pubDate>Sun, 31 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E5%A4%AA%E5%AE%B0%E6%B2%BB%E7%9A%84%E7%99%BD%E9%9E%8B%E5%AD%90/</guid>
+      <guid>https://GenXXXX.github.io/journal/%E5%A4%AA%E5%AE%B0%E6%B2%BB%E7%9A%84%E7%99%BD%E9%9E%8B%E5%AD%90/</guid>
       <description>&lt;blockquote&gt;记于2015年5月31日&lt;/blockquote&gt;
 
 &lt;h2 id=&#34;一&#34;&gt;一&lt;/h2&gt;
@@ -391,10 +386,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>海子诗抄</title>
-      <link>https://GenXXXX.github.io/posts/%E6%B5%B7%E5%AD%90%E8%AF%97%E6%8A%84/</link>
+      <link>https://GenXXXX.github.io/journal/%E6%B5%B7%E5%AD%90%E8%AF%97%E6%8A%84/</link>
       <pubDate>Wed, 14 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E6%B5%B7%E5%AD%90%E8%AF%97%E6%8A%84/</guid>
+      <guid>https://GenXXXX.github.io/journal/%E6%B5%B7%E5%AD%90%E8%AF%97%E6%8A%84/</guid>
       <description>&lt;p&gt;四个月，终究静下心读完了《海子诗全编》的短诗部分，摘录了一些我喜欢的句子。&lt;/p&gt;
 
 &lt;p&gt;&lt;div style=&#34;text-align:center&#34;&gt;&lt;/p&gt;
@@ -418,10 +413,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>像恒星啦坍缩</title>
-      <link>https://GenXXXX.github.io/posts/%E5%83%8F%E6%81%92%E6%98%9F%E5%95%A6%E5%9D%8D%E7%BC%A9/</link>
+      <link>https://GenXXXX.github.io/journal/%E5%83%8F%E6%81%92%E6%98%9F%E5%95%A6%E5%9D%8D%E7%BC%A9/</link>
       <pubDate>Tue, 30 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E5%83%8F%E6%81%92%E6%98%9F%E5%95%A6%E5%9D%8D%E7%BC%A9/</guid>
+      <guid>https://GenXXXX.github.io/journal/%E5%83%8F%E6%81%92%E6%98%9F%E5%95%A6%E5%9D%8D%E7%BC%A9/</guid>
       <description>&lt;blockquote&gt;记于2014年12月30日&lt;/blockquote&gt;
 
 &lt;h2 id=&#34;strong-引-strong&#34;&gt;&lt;strong&gt;引&lt;/strong&gt;&lt;/h2&gt;
@@ -445,10 +440,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>一封写了十二年的遗嘱</title>
-      <link>https://GenXXXX.github.io/posts/%E4%B8%80%E5%B0%81%E5%86%99%E4%BA%86%E5%8D%81%E4%BA%8C%E5%B9%B4%E7%9A%84%E9%81%97%E5%98%B1/</link>
+      <link>https://GenXXXX.github.io/journal/%E4%B8%80%E5%B0%81%E5%86%99%E4%BA%86%E5%8D%81%E4%BA%8C%E5%B9%B4%E7%9A%84%E9%81%97%E5%98%B1/</link>
       <pubDate>Tue, 18 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E4%B8%80%E5%B0%81%E5%86%99%E4%BA%86%E5%8D%81%E4%BA%8C%E5%B9%B4%E7%9A%84%E9%81%97%E5%98%B1/</guid>
+      <guid>https://GenXXXX.github.io/journal/%E4%B8%80%E5%B0%81%E5%86%99%E4%BA%86%E5%8D%81%E4%BA%8C%E5%B9%B4%E7%9A%84%E9%81%97%E5%98%B1/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;我们宁愿绝望 也不惜&lt;/p&gt;
 
@@ -475,10 +470,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>无力的自我</title>
-      <link>https://GenXXXX.github.io/posts/%E6%97%A0%E5%8A%9B%E7%9A%84%E8%87%AA%E6%88%91/</link>
+      <link>https://GenXXXX.github.io/journal/%E6%97%A0%E5%8A%9B%E7%9A%84%E8%87%AA%E6%88%91/</link>
       <pubDate>Sat, 06 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E6%97%A0%E5%8A%9B%E7%9A%84%E8%87%AA%E6%88%91/</guid>
+      <guid>https://GenXXXX.github.io/journal/%E6%97%A0%E5%8A%9B%E7%9A%84%E8%87%AA%E6%88%91/</guid>
       <description>&lt;blockquote&gt;记于14年9月6日，我摘录了村上《世界尽头与冷酷仙境》的一些片段并加以述说。&lt;/blockquote&gt;
 
 &lt;ol&gt;
@@ -500,10 +495,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>Cortana</title>
-      <link>https://GenXXXX.github.io/posts/cortana/</link>
+      <link>https://GenXXXX.github.io/journal/cortana/</link>
       <pubDate>Tue, 02 Sep 2014 14:42:47 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/cortana/</guid>
+      <guid>https://GenXXXX.github.io/journal/cortana/</guid>
       <description>&lt;p&gt;兴冲冲地跑去看豆瓣的评论，不由感叹毕竟还是文艺小清新的地盘，竟找不到一篇硬核科技的影评或者分析。想想还是自己来整理想法吧。&lt;/p&gt;
 
 &lt;p&gt;在我看来，《her》无疑是对未来人机交互设计、浸入式游戏设计、智能家居、可穿戴设备、云计算生活助理、下一代操作系统等一系列绝对可能实现并大幅改变人类生存模式的科技产品的一次集中展示。同时，影片中对于人机之恋的故事或许可以抬升至人工智能哲学的领域，可症结在于现阶段我们无从断定计算机是否会终有一日具备人类情感（详见赛尔的《中文屋》及其相关论断），故在此量力而不赘述。&lt;/p&gt;
@@ -513,10 +508,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>止于言说</title>
-      <link>https://GenXXXX.github.io/posts/%E6%AD%A2%E4%BA%8E%E8%A8%80%E8%AF%B4/</link>
+      <link>https://GenXXXX.github.io/journal/%E6%AD%A2%E4%BA%8E%E8%A8%80%E8%AF%B4/</link>
       <pubDate>Mon, 18 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E6%AD%A2%E4%BA%8E%E8%A8%80%E8%AF%B4/</guid>
+      <guid>https://GenXXXX.github.io/journal/%E6%AD%A2%E4%BA%8E%E8%A8%80%E8%AF%B4/</guid>
       <description>&lt;p&gt;&lt;blockquote&gt;记于14年8月18日&lt;/blockquote&gt;
 月初看电影，月末写影评，让时间和他人看法榨干自己所购买那张电影票的剩余价值，我觉得也不算坏事。起码的一点好处在于，万一出现自己会错意的地方，经他人影评点播，发出“原来是这样”的喟叹，总不会丢人于无形。曾经就出现过看完《穆赫兰道》和人大谈特谈女权主义同性恋者的消极抵抗的怂事，原片本来内容可自行谷歌。&lt;/p&gt;
 
@@ -527,10 +522,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>活的意思</title>
-      <link>https://GenXXXX.github.io/posts/%E6%B4%BB%E7%9A%84%E6%84%8F%E6%80%9D/</link>
+      <link>https://GenXXXX.github.io/journal/%E6%B4%BB%E7%9A%84%E6%84%8F%E6%80%9D/</link>
       <pubDate>Sun, 09 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E6%B4%BB%E7%9A%84%E6%84%8F%E6%80%9D/</guid>
+      <guid>https://GenXXXX.github.io/journal/%E6%B4%BB%E7%9A%84%E6%84%8F%E6%80%9D/</guid>
       <description>&lt;p&gt;&lt;blockquote&gt;记于13年中&lt;/blockquote&gt;
 当思特里克兰德抛家弃子身无分文地远赴巴黎，当勃朗什•施特略夫面对医院的天花板终了她躁动的一生，当画家画满墙壁的顶峰之作在其执念下终被付之一炬••••••出现在毛姆书中的一系列场景，为我进行至此的生活打上了一个充满讥谑和嘲讽的问号：你过的，有意思么？&lt;/p&gt;
 
@@ -541,10 +536,10 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
     
     <item>
       <title>我为什么决心放弃所有社交网络</title>
-      <link>https://GenXXXX.github.io/posts/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%B3%E5%BF%83%E6%94%BE%E5%BC%83%E6%89%80%E6%9C%89%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C/</link>
+      <link>https://GenXXXX.github.io/journal/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%B3%E5%BF%83%E6%94%BE%E5%BC%83%E6%89%80%E6%9C%89%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C/</link>
       <pubDate>Fri, 08 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%B3%E5%BF%83%E6%94%BE%E5%BC%83%E6%89%80%E6%9C%89%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C/</guid>
+      <guid>https://GenXXXX.github.io/journal/%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%B3%E5%BF%83%E6%94%BE%E5%BC%83%E6%89%80%E6%9C%89%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C/</guid>
       <description>&lt;blockquote&gt;记于2013年初，文中的种种尝试现在看来，几乎尽数失败&lt;/blockquote&gt;
 
 &lt;p&gt;＂人群中的这些面孔幽灵般显现，湿漉漉的黑色枝条上的许多花瓣。＂不管庞德当时在地铁站怎么想，反正这就是我现在打开社交网络时的困惑感。只知道头像长成什么样子甚至连头像都不知道的人们，或吐槽或炫耀或单纯分享或心灵鸡汤式的状态，将同一则碎片化的信息循环播放的公共主页和博客……这一切可利用率极小的信息成为了我进入大学后信息渠道的主体，也成为了我每天非学习时间的主要时间消耗。&lt;/p&gt;
@@ -554,6 +549,21 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
 &lt;p&gt;一个人的无聊是无聊，一群人的无聊是一种不容小觑的精神空洞。我决心退出这场无聊，所以我决定放弃社交网络，注销一切帐号。
 
 如果说理由，也是有的：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>崩塌的乌托邦</title>
+      <link>https://GenXXXX.github.io/journal/%E5%B4%A9%E5%A1%8C%E7%9A%84%E4%B9%8C%E6%89%98%E9%82%A6/</link>
+      <pubDate>Wed, 09 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://GenXXXX.github.io/journal/%E5%B4%A9%E5%A1%8C%E7%9A%84%E4%B9%8C%E6%89%98%E9%82%A6/</guid>
+      <description>&lt;blockquote&gt;记于13年末，文中凡涉及意识形态的论点都是乔治-奥威尔的设想，与日志发布者无关&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;一&#34;&gt;一&lt;/h2&gt;
+
+&lt;p&gt;不知道是不是每个人都和我曾经一样，相信一种愿景：关于社会进化及人类进步、乌托邦或桃花源。那两个下颚毛发异常繁密的男人为我们勾画过一个十足诱人的图景，原始奴隶社会进化为封建，再者资本社会，进而共产主义，最后天下大同。指引这一系列变化的要因，美其名曰“社会生产力”，即“人类创造物质和精神文明产品的能力”。是的，我曾对此图景深信不疑。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

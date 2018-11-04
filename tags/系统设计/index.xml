@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>系统设计 on Gen.X&#39;s Blog</title>
+    <title>系统设计 on 白马灰马</title>
     <link>https://GenXXXX.github.io/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/</link>
-    <description>Recent content in 系统设计 on Gen.X&#39;s Blog</description>
+    <description>Recent content in 系统设计 on 白马灰马</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 28 Dec 2017 00:14:19 -0700</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>System Design 学习上手</title>
-      <link>https://GenXXXX.github.io/posts/systemdesign/</link>
+      <link>https://GenXXXX.github.io/hack/systemdesign/</link>
       <pubDate>Thu, 28 Dec 2017 00:14:19 -0700</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/systemdesign/</guid>
+      <guid>https://GenXXXX.github.io/hack/systemdesign/</guid>
       <description>&lt;p&gt;总有一些犀利的公司试图用System Design来考察new grad的即战力，还是得准备一个。先以设计Twitter为例：&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

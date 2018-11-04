@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<meta name="description" content="No more knowledge can be extracted from my telling">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:domain" content="https://GenXXXX.github.io/">
+
+<meta name="twitter:image" content="https://GenXXXX.github.io/tn.png">
+<meta name="twitter:title" property="og:title" itemprop="title name" content="白马灰马">
+<meta name="twitter:description" property="og:description" itemprop="description" content="No more knowledge can be extracted from my telling">
+<meta name="og:type" content="website">
+<meta name="og:url" content="https://GenXXXX.github.io/">
+<meta name="og:image" itemprop="image primaryImageOfPage" content="https://GenXXXX.github.io/tn.png">
+
+<link rel="shortcut icon" href="https://GenXXXX.github.io/sam.ico" id="favicon">
+<link rel="stylesheet" href="https://GenXXXX.github.io/css/style.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+
+
+    
+
+    
+    
+    
+    <title>
+        
+        System Design 学习上手
+        
+    </title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="section" id="title">System Design 学习上手</div>
+
+        <div class="section" id="content"><p>总有一些犀利的公司试图用System Design来考察new grad的即战力，还是得准备一个。先以设计Twitter为例：</p>
+
+<p></p>
+
+<h2 id="1-requirements-classification">1. Requirements classification</h2>
+
+<p>问清楚需求再开始设计，常识。问题例如：</p>
+
+<ul>
+<li>Will users of our service be able to post tweets and follow other people?</li>
+<li>Should we also design to create and display user’s timeline?</li>
+<li>Will tweets contain photos and videos?</li>
+<li>Will users be able to search tweets?</li>
+<li>Do we need to display hot trending topics?</li>
+<li>Would there be any push notification for new (or important) tweets?</li>
+</ul>
+
+<h2 id="2-system-interface-definition">2. System interface definition</h2>
+
+<p>设计API，抽象软件功能。例如：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">postTweet<span style="color:#f92672">(</span>user_id<span style="color:#f92672">,</span> tweet_data<span style="color:#f92672">,</span> tweet_location<span style="color:#f92672">,</span> user_location<span style="color:#f92672">,</span> timestamp<span style="color:#f92672">,</span> <span style="color:#960050;background-color:#1e0010">…</span><span style="color:#f92672">)</span>
+
+generateTimeline<span style="color:#f92672">(</span>user_id<span style="color:#f92672">,</span> current_time<span style="color:#f92672">,</span> user_location<span style="color:#f92672">,</span> <span style="color:#960050;background-color:#1e0010">…</span><span style="color:#f92672">)</span></code></pre></div>
+<h2 id="3-back-of-the-envelope-estimation-粗略估算">3. Back-of-the-envelope estimation(粗略估算)</h2>
+
+<p>估算scale of the system, 思考scaling, load balancing, caching, partitioning, etc</p>
+
+<ul>
+<li>What scale is expected from the system (e.g., number of new tweets, number of tweet views, how many timeline generations per sec., etc.)?</li>
+<li>How much storage would we need? We’ll have different numbers if users can have photos and videos in their tweets.</li>
+</ul>
+
+<p>这一部分的估算详见<a href="http://www.1point3acres.com/bbs/thread-208829-1-1.html">此贴</a></p>
+
+<h2 id="4-defining-data-model">4. Defining data model</h2>
+
+<p>For Twitter, e.g.</p>
+
+<p><strong>User</strong>: UserID, Name, Email, DoB, CreationData, LastLogin, etc.</p>
+
+<p><strong>Tweet</strong>: TweetID, Content, TweetLocation, NumberOfLikes, TimeStamp, etc.</p>
+
+<p><strong>UserFollowos</strong>: UserdID1, UserID2</p>
+
+<p><strong>FavoriteTweets</strong>: UserID, TweetID, TimeStamp</p>
+
+<h2 id="5-high-level-design">5. High-level design</h2>
+
+<p>画block diagram设计图。</p>
+
+<blockquote>
+<p>For Twitter, at a high level, we would need multiple application servers to serve all the read/write requests with load balancers in front of them for traffic distributions. If we’re assuming that we’ll have a lot more read traffic (as compared to write), we can decide to have separate servers for handling these scenarios. On the backend, we need an efficient database that can store all the tweets and can support a huge number of reads. We would also need a distributed file storage system to store photos and videos.</p>
+</blockquote>
+
+<h2 id="6-detailed-design">6. Detailed design</h2>
+
+<ul>
+<li>Since we’ll be storing a huge amount of data, how should we partition our data to distribute it to multiple databases? Should we try to store all the data of a user on the same database? What issue can it cause?</li>
+<li>How would we handle hot users, who tweet a lot or follow a lot of people?</li>
+<li>How much and at which layer should we introduce cache to speed things up?</li>
+</ul>
+
+<h2 id="7-bottlenecks">7. Bottlenecks</h2>
+
+<ul>
+<li>Is there any single point of failure in our system? What are we doing to mitigate it?</li>
+<li>Do we’ve enough replicas of the data, so that if we lose a few servers, we can still serve our users?</li>
+</ul>
+
+<hr />
+
+<h2 id="cap-theorem">CAP Theorem</h2>
+
+<p><a href="http://ksat.me/a-plain-english-introduction-to-cap-theorem/">A plain english introduction to CAP Theorem</a></p>
+
+<ul>
+<li>Consistency: 所有节点获取最新数据的能力</li>
+<li>Availability: 每次请求都能获得响应的能力（不保证最新）</li>
+<li>Partitioning: 分区容错性，在C和A之间做抉择</li>
+</ul>
+
+<hr />
+
+<h2 id="key-concepts">Key Concepts</h2>
+
+<p><strong>1. Horizontal vs Vertical Scaling</strong></p>
+
+<ul>
+<li>纵向扩展 means increase the resources of a specific node, e.g. add additional memory to a server</li>
+<li>横向扩展 means increase the number of nodes, e.g. add additional servers thus decreasing the load on any one server</li>
+</ul>
+
+<p><strong>2. Load Balancer</strong>（负载均衡器）</p>
+
+<p>通常在一个scalable website 的前端会放置一个load balancer, this allows a system to distribute the load evenly so that one server doesn&rsquo;t crash and take down the whole system</p>
+
+<p><strong>3. Denormalization and NoSQL</strong></p>
+
+<p>Denormalization means adding redundant information into a database to speed up reads</p>
+
+<p><strong>4. Database Partitioning (Sharding)</strong></p>
+
+<p>Sharding means split the data across multiple machines while 你仍然知道哪些data在哪些机器上</p>
+
+<ul>
+<li>Vertical Partitioning, partitioning by feature</li>
+<li>Hash-based partitioning, using some part of the data (like an ID) to partition it. 比如有N个服务器，讲数据放在mod(key, n)号服务器上</li>
+<li>Directory-based partitioning, maintaining a look-up table for where the data can be found</li>
+</ul>
+
+<p><strong>5. Caching</strong></p>
+
+<p>缓存，类比LRU cache</p>
+
+<p><strong>6. Asynchronous Processing (异步处理)</strong></p>
+
+<p>耗时较长的slow operation最好be done asynchronously, 否则用户将会被阻塞过长时间。有时可以通过pre-process来加速。</p>
+
+<p><strong>7. Networking metrics</strong></p>
+
+<ul>
+<li>Bandwidth: the maximum amount of data that can be transferred in a unit of time</li>
+<li>Throughput: the actual amount of data that is transferred</li>
+<li>Latency: This is how long it takes data to go from one end to the other</li>
+</ul>
+
+<p><strong>8. Read-heavy vs. Write-heavy</strong></p>
+
+<p>Write-heavy: queuing up the writes (but think about the potential failure)</p>
+
+<p>Read-heavy: cache大法好</p>
+
+<hr />
+
+<h2 id="example">EXAMPLE</h2>
+
+<p>设计Facebook, 实现find shortest path between two people 的功能</p>
+
+<p>Step1: 不考虑数据规模，利用bidirectional-BFS找两人之间最短路径</p>
+
+<p>Step 2: Scale up. 实现以下接口，</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">int</span> machine_index <span style="color:#f92672">=</span> getMachineIDForUser<span style="color:#f92672">(</span>personID<span style="color:#f92672">);</span>
+
+<span style="color:#75715e">//go to machine # machine_index
+</span><span style="color:#75715e"></span>
+Person friend <span style="color:#f92672">=</span> getPersonWithID<span style="color:#f92672">(</span>person_id<span style="color:#f92672">);</span></code></pre></div>
+<p>首先找server中存储personID的机器ID，再从机器中找到对应的人</p>
+
+<p>Step 3: Optimization.</p>
+
+<ul>
+<li>Reduce machine jumps: If 5 of my friends live on the same machine, I should look them up all at once</li>
+<li>Smart division of people and machines. While dividing people across machines, try to divide them by country, city, state, and so on</li>
+<li>&hellip;</li>
+</ul></div>
+
+        
+        <div class="section bottom-menu">
+<hr />
+<p>
+
+
+    
+
+    
+        
+            <a href="/journal">
+                Pools of sorrow, waves of joy
+            </a>
+        
+    
+    
+        
+            &#183; 
+            <a href="/hack">
+                Are drifting through my opened mind
+            </a>
+        
+            &#183; 
+            <a href="/about">
+                Possessing and caressing me
+            </a>
+        
+    
+    &#183; 
+    <a href="https://GenXXXX.github.io/">
+        main
+    </a>
+
+</p></div>
+        
+
+        <div class="section footer">No more knowledge can be extracted from my telling
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+  });
+  MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+
+  MathJax.Hub.Config({
+  
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+</div>
+    </div>
+</body>
+
+</html>

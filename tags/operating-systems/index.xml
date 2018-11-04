@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Operating Systems on Gen.X&#39;s Blog</title>
+    <title>Operating Systems on 白马灰马</title>
     <link>https://GenXXXX.github.io/tags/operating-systems/</link>
-    <description>Recent content in Operating Systems on Gen.X&#39;s Blog</description>
+    <description>Recent content in Operating Systems on 白马灰马</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Dec 2017 00:00:00 +0000</lastBuildDate>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Operating Systems 知识速记</title>
-      <link>https://GenXXXX.github.io/posts/os/</link>
+      <link>https://GenXXXX.github.io/hack/os/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://GenXXXX.github.io/posts/os/</guid>
+      <guid>https://GenXXXX.github.io/hack/os/</guid>
       <description>0. Concepts Process: Program under execution
 Thread: Smallest sequence of programmed instructions
 Virtual Memory: the memory as viewed by the process. Each process believes it has a contiguous chunk of memory starting at location zero (Truman&amp;rsquo;s virtual memory).
