@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>系统设计 on 白马灰马</title>
@@ -17,9 +17,7 @@
       <pubDate>Thu, 28 Dec 2017 00:14:19 -0700</pubDate>
       
       <guid>https://GenXXXX.github.io/hack/systemdesign/</guid>
-      <description>&lt;p&gt;总有一些犀利的公司试图用System Design来考察new grad的即战力，还是得准备一个。先以设计Twitter为例：&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;总有一些犀利的公司试图用System Design来考察new grad的即战力，还是得准备一个。先以设计Twitter为例：&lt;/p&gt;</description>
     </item>
     
   </channel>

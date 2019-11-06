@@ -1,6 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://GenXXXX.github.io/journal/</loc>
+    <lastmod>2019-11-05T15:35:06-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://GenXXXX.github.io/journal/iceland/</loc>
+    <lastmod>2019-11-05T15:35:06-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://GenXXXX.github.io/</loc>
+    <lastmod>2019-11-05T15:35:06-08:00</lastmod>
+  </url>
   
   <url>
     <loc>https://GenXXXX.github.io/journal/japan/</loc>
@@ -18,8 +33,33 @@
   </url>
   
   <url>
+    <loc>https://GenXXXX.github.io/tags/</loc>
+    <lastmod>2018-01-26T00:14:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://GenXXXX.github.io/tags/%E4%B9%A6%E8%AF%84/</loc>
+    <lastmod>2018-01-26T00:14:19-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://GenXXXX.github.io/journal/%E5%85%8B%E8%8B%8F%E9%B2%81%E7%9A%84%E4%BA%8C%E5%90%91%E7%AE%94/</loc>
     <lastmod>2018-01-26T00:14:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://GenXXXX.github.io/hack/</loc>
+    <lastmod>2017-12-28T00:14:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://GenXXXX.github.io/tags/leetcode/</loc>
+    <lastmod>2017-12-28T00:14:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://GenXXXX.github.io/tags/system-design/</loc>
+    <lastmod>2017-12-28T00:14:19-07:00</lastmod>
   </url>
   
   <url>
@@ -28,8 +68,23 @@
   </url>
   
   <url>
+    <loc>https://GenXXXX.github.io/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2017-12-28T00:14:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://GenXXXX.github.io/tags/operating-systems/</loc>
+    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://GenXXXX.github.io/hack/os/</loc>
     <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://GenXXXX.github.io/tags/hashmap/</loc>
+    <lastmod>2017-12-08T22:11:44+00:00</lastmod>
   </url>
   
   <url>
@@ -43,8 +98,23 @@
   </url>
   
   <url>
+    <loc>https://GenXXXX.github.io/tags/work/</loc>
+    <lastmod>2017-02-28T00:14:19-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://GenXXXX.github.io/journal/meanlingless/</loc>
     <lastmod>2016-11-12T00:29:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://GenXXXX.github.io/tags/%E5%BD%B1%E8%A9%95/</loc>
+    <lastmod>2016-11-12T00:29:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://GenXXXX.github.io/tags/art/</loc>
+    <lastmod>2016-09-01T21:46:55+00:00</lastmod>
   </url>
   
   <url>
@@ -58,12 +128,27 @@
   </url>
   
   <url>
+    <loc>https://GenXXXX.github.io/tags/%E5%B0%8F%E8%AF%B4/</loc>
+    <lastmod>2016-08-07T00:14:19-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://GenXXXX.github.io/hack/hexo/</loc>
     <lastmod>2016-05-09T00:14:19-07:00</lastmod>
   </url>
   
   <url>
+    <loc>https://GenXXXX.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2016-05-09T00:14:19-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://GenXXXX.github.io/journal/%E4%B9%9D%E4%BB%BD/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://GenXXXX.github.io/tags/%E6%83%B3%E6%B3%95/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,6 +203,11 @@
   </url>
   
   <url>
+    <loc>https://GenXXXX.github.io/tags/%E6%91%98%E5%BD%95/</loc>
+    <lastmod>2015-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://GenXXXX.github.io/journal/%E6%B5%B7%E5%AD%90%E8%AF%97%E6%8A%84/</loc>
     <lastmod>2015-01-14T00:00:00+00:00</lastmod>
   </url>
@@ -143,6 +233,11 @@
   </url>
   
   <url>
+    <loc>https://GenXXXX.github.io/tags/%E5%BD%B1%E8%AF%84/</loc>
+    <lastmod>2014-09-02T14:42:47+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://GenXXXX.github.io/journal/%E6%AD%A2%E4%BA%8E%E8%A8%80%E8%AF%B4/</loc>
     <lastmod>2014-08-18T00:00:00+00:00</lastmod>
   </url>
@@ -163,116 +258,7 @@
   </url>
   
   <url>
-    <loc>https://GenXXXX.github.io/tags/art/</loc>
-    <lastmod>2016-09-01T21:46:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://GenXXXX.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/hack/</loc>
-    <lastmod>2017-12-28T00:14:19-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/hashmap/</loc>
-    <lastmod>2017-12-08T22:11:44+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/journal/</loc>
-    <lastmod>2018-12-13T14:34:13-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/leetcode/</loc>
-    <lastmod>2017-12-28T00:14:19-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/operating-systems/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/system-design/</loc>
-    <lastmod>2017-12-28T00:14:19-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/</loc>
-    <lastmod>2016-09-01T21:46:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/work/</loc>
-    <lastmod>2017-02-28T00:14:19-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/%E4%B9%A6%E8%AF%84/</loc>
-    <lastmod>2018-01-26T00:14:19-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/%E5%B0%8F%E8%AF%B4/</loc>
-    <lastmod>2016-08-07T00:14:19-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/%E5%BD%B1%E8%A9%95/</loc>
-    <lastmod>2016-11-12T00:29:53+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/%E5%BD%B1%E8%AF%84/</loc>
-    <lastmod>2014-09-02T14:42:47+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/%E6%83%B3%E6%B3%95/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2016-05-09T00:14:19-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/%E6%91%98%E5%BD%95/</loc>
-    <lastmod>2015-01-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/</loc>
-    <lastmod>2018-12-13T14:34:13-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://GenXXXX.github.io/tags/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/</loc>
-    <lastmod>2017-12-28T00:14:19-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

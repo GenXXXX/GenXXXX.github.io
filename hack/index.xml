@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hacks on 白马灰马</title>
@@ -17,9 +17,7 @@
       <pubDate>Thu, 28 Dec 2017 00:14:19 -0700</pubDate>
       
       <guid>https://GenXXXX.github.io/hack/systemdesign/</guid>
-      <description>&lt;p&gt;总有一些犀利的公司试图用System Design来考察new grad的即战力，还是得准备一个。先以设计Twitter为例：&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;总有一些犀利的公司试图用System Design来考察new grad的即战力，还是得准备一个。先以设计Twitter为例：&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -43,9 +41,7 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
       <guid>https://GenXXXX.github.io/hack/hashmap/</guid>
       <description>&lt;p&gt;一日，$E^{6}X$和我说，“你看着越来越没有程序猿气质了”。我顿时感到警觉，翻了翻之前的Blog，尽是书评影评小说摘抄，像初三女生的QQ空间，连非主流自拍都没有的那种。摸摸头顶，与宇宙演进截然相反的熵减趋势时刻提醒我作为码农的阶级属性。&lt;/p&gt;
 
-&lt;p&gt;“得写点技术博客了。”我想。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;“得写点技术博客了。”我想。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -54,9 +50,7 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
       <pubDate>Tue, 28 Feb 2017 00:14:19 -0700</pubDate>
       
       <guid>https://GenXXXX.github.io/hack/hedge/</guid>
-      <description>&lt;p&gt;After a 4-hour meeting with Joel, I finally understood the basic ideas about how the so called hedging works. Although I&amp;rsquo;m not going to do a data scientist&amp;rsquo;s work, however, in review of the automatic trading platform I&amp;rsquo;m about to build, it&amp;rsquo;s supposed that I get a rough idea about the mechanisms of a hedge fund. So here are some of my memos.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;After a 4-hour meeting with Joel, I finally understood the basic ideas about how the so called hedging works. Although I&amp;rsquo;m not going to do a data scientist&amp;rsquo;s work, however, in review of the automatic trading platform I&amp;rsquo;m about to build, it&amp;rsquo;s supposed that I get a rough idea about the mechanisms of a hedge fund. So here are some of my memos.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -81,9 +75,7 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
 
 &lt;p&gt;类名重定义，而且是一份庞大且我几乎没仔细研究过的代码。结局很明显：我的个人站点的后台崩掉了。&lt;/p&gt;
 
-&lt;p&gt;按照故事的正常逻辑，接下来应该是我苦心孤诣debug最终成功经过一日一夜的骚受挠头把网站恢复了。然而不是这样。很多情况下，修轮子的时间成本要比造轮子高不少，所以这次我决定借别人家的图纸再造一个轮子。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;按照故事的正常逻辑，接下来应该是我苦心孤诣debug最终成功经过一日一夜的骚受挠头把网站恢复了。然而不是这样。很多情况下，修轮子的时间成本要比造轮子高不少，所以这次我决定借别人家的图纸再造一个轮子。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -104,9 +96,7 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
 
 &lt;p&gt;它是谁？它来自哪里？它为什么存在？&lt;/p&gt;
 
-&lt;p&gt;于是有了这篇科普文。&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;于是有了这篇科普文。&lt;/p&gt;</description>
     </item>
     
   </channel>
