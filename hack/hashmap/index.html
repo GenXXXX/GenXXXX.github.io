@@ -37,12 +37,10 @@ LeetCode | 利用HashMap实现O(n)时间的算法 - 白马灰马
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="LeetCode | 利用HashMap实现O(n)时间的算法"/>
 <meta name="twitter:description" content="一日，$E^{6}X$和我说，“你看着越来越没有程序猿气质了”。我顿时感到警觉，翻了翻之前的Blog，尽是书评影评小说摘抄，像初三女生的QQ空间，连非主流自拍都没有的那种。摸摸头顶，与宇宙演进截然相反的熵减趋势时刻提醒我作为码农的阶级属性。
-
 “得写点技术博客了。”我想。"/>
 
 <meta property="og:title" content="LeetCode | 利用HashMap实现O(n)时间的算法" />
 <meta property="og:description" content="一日，$E^{6}X$和我说，“你看着越来越没有程序猿气质了”。我顿时感到警觉，翻了翻之前的Blog，尽是书评影评小说摘抄，像初三女生的QQ空间，连非主流自拍都没有的那种。摸摸头顶，与宇宙演进截然相反的熵减趋势时刻提醒我作为码农的阶级属性。
-
 “得写点技术博客了。”我想。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://GenXXXX.github.io/hack/hashmap/" />
@@ -86,47 +84,39 @@ MathJax.Hub.Config({
         <div class="section" id="title">LeetCode | 利用HashMap实现O(n)时间的算法</div>
 
         <div class="section" id="content"><p>一日，$E^{6}X$和我说，“你看着越来越没有程序猿气质了”。我顿时感到警觉，翻了翻之前的Blog，尽是书评影评小说摘抄，像初三女生的QQ空间，连非主流自拍都没有的那种。摸摸头顶，与宇宙演进截然相反的熵减趋势时刻提醒我作为码农的阶级属性。</p>
-
 <p>“得写点技术博客了。”我想。</p>
-
 <p>这篇算是个开头，至于能写多少、内容深度，主要取决于我和懒癌斗争的结果。我估摸主要还是记录下我做过的算法题。</p>
-
-<hr />
-
+<hr>
 <p>LeetCode大名鼎鼎的高频题2Sum很可能是大部分人AC的第一道题目，它的核心之处在于利用<code>HashMap</code>实现$O(n)$时间复杂度的算法，通过对key-value pair的巧妙设置，达到每向前遍历一步，都能利用map查看之前所得结果的效果。在这里，把这类题目整理一下：</p>
-
-<h2 id="325-maximum-size-subarray-sum-equals-k-https-leetcode-com-problems-maximum-size-subarray-sum-equals-k-description"><a href="https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/description/">325.Maximum Size Subarray Sum Equals k</a></h2>
-
+<h2 id="325maximum-size-subarray-sum-equals-khttpsleetcodecomproblemsmaximum-size-subarray-sum-equals-kdescription"><a href="https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/description/">325.Maximum Size Subarray Sum Equals k</a></h2>
 <p>问题： 求sum=k的最长子数组的长度。</p>
-
 <p><code>HashMap</code> structure: <code>&lt;sum of all elements from 0 to index i, i&gt;</code></p>
-
 <p>Solution：若当前sum为k，更新结果max；若map中存在key为sum-k，说明之前存在子数组sum_pre，使得sum_cur - sum_pre = k，更新结果max。若map中不存在当前sum，将其添加到map中。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#960050;background-color:#1e0010">public int </span>maxSubArrayLen(<span style="color:#960050;background-color:#1e0010">int[] nums</span>, <span style="color:#960050;background-color:#1e0010">int k</span>) {
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">maxSubArrayLen</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span><span style="color:#f92672">[</span><span style="color:#f92672">]</span> nums<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> k<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
         
-        <span style="color:#960050;background-color:#1e0010">int sum </span><span style="color:#f92672">=</span> 0;
-        <span style="color:#960050;background-color:#1e0010">int max </span><span style="color:#f92672">=</span> 0;
+        <span style="color:#66d9ef">int</span> sum <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
+        <span style="color:#66d9ef">int</span> max <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
         
         <span style="color:#75715e">//map stores the key-value pair of &lt;sum of all elements from 0 to index i, i&gt;
-</span><span style="color:#75715e"></span>        HashMap<span style="color:#f92672">&lt;</span>Integer, <span style="color:#960050;background-color:#1e0010">Integer&gt; map </span><span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashMap<span style="color:#f92672">&lt;&gt;</span>();
+</span><span style="color:#75715e"></span>        HashMap<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">,</span> Integer<span style="color:#f92672">&gt;</span> map <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashMap<span style="color:#f92672">&lt;</span><span style="color:#f92672">&gt;</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
         
-        <span style="color:#66d9ef">for</span>(<span style="color:#960050;background-color:#1e0010">int i </span><span style="color:#f92672">=</span> 0;i <span style="color:#f92672">&lt;</span> nums.<span style="color:#a6e22e">length</span>;i<span style="color:#f92672">++</span>)
-        {
-            sum <span style="color:#f92672">+=</span> nums[i];
+        <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>i <span style="color:#f92672">&lt;</span> nums<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span>i<span style="color:#f92672">+</span><span style="color:#f92672">+</span><span style="color:#f92672">)</span>
+        <span style="color:#f92672">{</span>
+            sum <span style="color:#f92672">+</span><span style="color:#f92672">=</span> nums<span style="color:#f92672">[</span>i<span style="color:#f92672">]</span><span style="color:#f92672">;</span>
             
-            <span style="color:#66d9ef">if</span>(sum <span style="color:#f92672">==</span> k) max <span style="color:#f92672">=</span> i<span style="color:#f92672">+</span>1; <span style="color:#75715e">//return the length of current array index
-</span><span style="color:#75715e"></span>            <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span>(map.<span style="color:#a6e22e">containsKey</span>(sum<span style="color:#f92672">-</span>k)) <span style="color:#75715e">//sum - (sum-k) = k, 减掉之前的某个sum得到k
-</span><span style="color:#75715e"></span>            {
-                max <span style="color:#f92672">=</span> Math.<span style="color:#a6e22e">max</span>(max, i <span style="color:#f92672">-</span> map.<span style="color:#a6e22e">get</span>(sum<span style="color:#f92672">-</span>k));
-            }
+            <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>sum <span style="color:#f92672">=</span><span style="color:#f92672">=</span> k<span style="color:#f92672">)</span> max <span style="color:#f92672">=</span> i<span style="color:#f92672">+</span>1<span style="color:#f92672">;</span> <span style="color:#75715e">//return the length of current array index
+</span><span style="color:#75715e"></span>            <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>map<span style="color:#f92672">.</span><span style="color:#a6e22e">containsKey</span><span style="color:#f92672">(</span>sum<span style="color:#f92672">-</span>k<span style="color:#f92672">)</span><span style="color:#f92672">)</span> <span style="color:#75715e">//sum - (sum-k) = k, 减掉之前的某个sum得到k
+</span><span style="color:#75715e"></span>            <span style="color:#f92672">{</span>
+                max <span style="color:#f92672">=</span> Math<span style="color:#f92672">.</span><span style="color:#a6e22e">max</span><span style="color:#f92672">(</span>max<span style="color:#f92672">,</span> i <span style="color:#f92672">-</span> map<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>sum<span style="color:#f92672">-</span>k<span style="color:#f92672">)</span><span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+            <span style="color:#f92672">}</span>
             
-            <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span>map.<span style="color:#a6e22e">containsKey</span>(sum)) map.<span style="color:#a6e22e">put</span>(sum, i);  <span style="color:#75715e">//子数组有相同sum的话，取index小的存入map，这样结果的长度最长
-</span><span style="color:#75715e"></span>        }
+            <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span><span style="color:#f92672">!</span>map<span style="color:#f92672">.</span><span style="color:#a6e22e">containsKey</span><span style="color:#f92672">(</span>sum<span style="color:#f92672">)</span><span style="color:#f92672">)</span> map<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span>sum<span style="color:#f92672">,</span> i<span style="color:#f92672">)</span><span style="color:#f92672">;</span>  <span style="color:#75715e">//子数组有相同sum的话，取index小的存入map，这样结果的长度最长
+</span><span style="color:#75715e"></span>        <span style="color:#f92672">}</span>
         
-        <span style="color:#66d9ef">return</span> max;
+        <span style="color:#66d9ef">return</span> max<span style="color:#f92672">;</span>
         
-    }</code></pre></div>
-<hr /></div>
+    <span style="color:#f92672">}</span>
+</code></pre></div><hr></div>
 
         
         <div class="section bottom-menu">

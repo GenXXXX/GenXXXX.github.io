@@ -19,7 +19,7 @@
       <guid>https://GenXXXX.github.io/hack/os/</guid>
       <description>0. Concepts Process: Program under execution
 Thread: Smallest sequence of programmed instructions
-Virtual Memory: the memory as viewed by the process. Each process believes it has a contiguous chunk of memory starting at location zero (Truman&amp;rsquo;s virtual memory).
+Virtual Memory: the memory as viewed by the process. Each process believes it has a contiguous chunk of memory starting at location zero (Truman&#39;s virtual memory).
 Semaphore: a variable or abstract data type used to control access to a common resource by multiple processes in a concurrent system
 Deadlock: A deadlock occurs when every member of a set of processes is waiting for an event that can only be caused by a member of the set</description>
     </item>
