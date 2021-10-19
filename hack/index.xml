@@ -6,11 +6,7 @@
     <description>Recent content in Hacks on 白马灰马</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Dec 2017 00:14:19 -0700</lastBuildDate>
-    
-	<atom:link href="https://GenXXXX.github.io/hack/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 28 Dec 2017 00:14:19 -0700</lastBuildDate><atom:link href="https://GenXXXX.github.io/hack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>System Design 学习上手</title>
       <link>https://GenXXXX.github.io/hack/systemdesign/</link>
@@ -26,9 +22,9 @@
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://GenXXXX.github.io/hack/os/</guid>
-      <description>0. Concepts Process: Program under execution
+      <description>0. Concepts&amp;nbsp;¶ Process: Program under execution
 Thread: Smallest sequence of programmed instructions
-Virtual Memory: the memory as viewed by the process. Each process believes it has a contiguous chunk of memory starting at location zero (Truman&#39;s virtual memory).
+Virtual Memory: the memory as viewed by the process. Each process believes it has a contiguous chunk of memory starting at location zero (Truman&amp;rsquo;s virtual memory).
 Semaphore: a variable or abstract data type used to control access to a common resource by multiple processes in a concurrent system
 Deadlock: A deadlock occurs when every member of a set of processes is waiting for an event that can only be caused by a member of the set</description>
     </item>
@@ -49,7 +45,7 @@ Deadlock: A deadlock occurs when every member of a set of processes is waiting f
       <pubDate>Tue, 28 Feb 2017 00:14:19 -0700</pubDate>
       
       <guid>https://GenXXXX.github.io/hack/hedge/</guid>
-      <description>&lt;p&gt;After a 4-hour meeting with Joel, I finally understood the basic ideas about how the so called hedging works. Although I&#39;m not going to do a data scientist&#39;s work, however, in review of the automatic trading platform I&#39;m about to build, it&#39;s supposed that I get a rough idea about the mechanisms of a hedge fund. So here are some of my memos.&lt;/p&gt;</description>
+      <description>&lt;p&gt;After a 4-hour meeting with Joel, I finally understood the basic ideas about how the so called hedging works. Although I&amp;rsquo;m not going to do a data scientist&amp;rsquo;s work, however, in review of the automatic trading platform I&amp;rsquo;m about to build, it&amp;rsquo;s supposed that I get a rough idea about the mechanisms of a hedge fund. So here are some of my memos.&lt;/p&gt;</description>
     </item>
     
     <item>

@@ -9,12 +9,11 @@
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
+
 <meta name="description" content="No more knowledge can be extracted from my telling">
 <title>
-System Design 学习上手 - 白马灰马
+    System Design 学习上手 - 白马灰马
 </title>
-
-
 
 
 <link rel="shortcut icon" href="/sam.ico">
@@ -26,11 +25,17 @@ System Design 学习上手 - 白马灰马
 
 
 
-<link rel="stylesheet" href="/css/main.min.81bbafc4df93b11c1c3e2449464373c384aa4903731b4fc7a77dfcdd979e184f.css" integrity="sha256-gbuvxN&#43;TsRwcPiRJRkNzw4SqSQNzG0/Hp3383ZeeGE8=" crossorigin="anonymous" media="screen">
+<link rel="stylesheet" href="/css/main.min.c5514d3530979d291f3497facc20da1cec870028dbc2a3630b64bab8721bbe49.css" integrity="sha256-xVFNNTCXnSkfNJf6zCDaHOyHACjbwqNjC2S6uHIbvkk=" crossorigin="anonymous" media="screen">
 
 
 
- 
+
+  
+
+
+
+
+
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 
@@ -41,28 +46,10 @@ System Design 学习上手 - 白马灰马
 <meta property="og:title" content="System Design 学习上手" />
 <meta property="og:description" content="总有一些犀利的公司试图用System Design来考察new grad的即战力，还是得准备一个。先以设计Twitter为例：" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://GenXXXX.github.io/hack/systemdesign/" />
+<meta property="og:url" content="https://GenXXXX.github.io/hack/systemdesign/" /><meta property="article:section" content="hack" />
 <meta property="article:published_time" content="2017-12-28T00:14:19-07:00" />
 <meta property="article:modified_time" content="2017-12-28T00:14:19-07:00" />
 
-
-
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-});
-</script>
 
 
     
@@ -78,11 +65,16 @@ MathJax.Hub.Config({
 </head>
 
 <body>
-    <div class="wrap">
-        <div class="section" id="title">System Design 学习上手</div>
-
-        <div class="section" id="content"><p>总有一些犀利的公司试图用System Design来考察new grad的即战力，还是得准备一个。先以设计Twitter为例：</p>
-<h2 id="1-requirements-classification">1. Requirements classification</h2>
+    
+    
+    <header class="wrap flex-container">
+        <h1>System Design 学习上手</h1>
+    </header>
+    
+    <main class="wrap">
+        
+        <article role="article" class="flex-container"><p>总有一些犀利的公司试图用System Design来考察new grad的即战力，还是得准备一个。先以设计Twitter为例：</p>
+<h2 id="1-requirements-classification" class="anchor-link"><a href="#1-requirements-classification">1. Requirements classification<span class="pilcrow">&nbsp;¶</span></a></h2>
 <p>问清楚需求再开始设计，常识。问题例如：</p>
 <ul>
 <li>Will users of our service be able to post tweets and follow other people?</li>
@@ -92,42 +84,49 @@ MathJax.Hub.Config({
 <li>Do we need to display hot trending topics?</li>
 <li>Would there be any push notification for new (or important) tweets?</li>
 </ul>
-<h2 id="2-system-interface-definition">2. System interface definition</h2>
+
+<h2 id="2-system-interface-definition" class="anchor-link"><a href="#2-system-interface-definition">2. System interface definition<span class="pilcrow">&nbsp;¶</span></a></h2>
 <p>设计API，抽象软件功能。例如：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">postTweet<span style="color:#f92672">(</span>user_id<span style="color:#f92672">,</span> tweet_data<span style="color:#f92672">,</span> tweet_location<span style="color:#f92672">,</span> user_location<span style="color:#f92672">,</span> timestamp<span style="color:#f92672">,</span> <span style="color:#960050;background-color:#1e0010">…</span><span style="color:#f92672">)</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">postTweet<span style="color:#f92672">(</span>user_id<span style="color:#f92672">,</span> tweet_data<span style="color:#f92672">,</span> tweet_location<span style="color:#f92672">,</span> user_location<span style="color:#f92672">,</span> timestamp<span style="color:#f92672">,</span> <span style="color:#960050;background-color:#1e0010">…</span><span style="color:#f92672">)</span>
 
 generateTimeline<span style="color:#f92672">(</span>user_id<span style="color:#f92672">,</span> current_time<span style="color:#f92672">,</span> user_location<span style="color:#f92672">,</span> <span style="color:#960050;background-color:#1e0010">…</span><span style="color:#f92672">)</span>
-</code></pre></div><h2 id="3-back-of-the-envelope-estimation">3. Back-of-the-envelope estimation(粗略估算)</h2>
+</code></pre></div>
+<h2 id="3-back-of-the-envelope-estimation粗略估算" class="anchor-link"><a href="#3-back-of-the-envelope-estimation%e7%b2%97%e7%95%a5%e4%bc%b0%e7%ae%97">3. Back-of-the-envelope estimation(粗略估算)<span class="pilcrow">&nbsp;¶</span></a></h2>
 <p>估算scale of the system, 思考scaling, load balancing, caching, partitioning, etc</p>
 <ul>
 <li>What scale is expected from the system (e.g., number of new tweets, number of tweet views, how many timeline generations per sec., etc.)?</li>
 <li>How much storage would we need? We’ll have different numbers if users can have photos and videos in their tweets.</li>
 </ul>
 <p>这一部分的估算详见<a href="http://www.1point3acres.com/bbs/thread-208829-1-1.html">此贴</a></p>
-<h2 id="4-defining-data-model">4. Defining data model</h2>
+
+<h2 id="4-defining-data-model" class="anchor-link"><a href="#4-defining-data-model">4. Defining data model<span class="pilcrow">&nbsp;¶</span></a></h2>
 <p>For Twitter, e.g.</p>
 <p><strong>User</strong>: UserID, Name, Email, DoB, CreationData, LastLogin, etc.</p>
 <p><strong>Tweet</strong>: TweetID, Content, TweetLocation, NumberOfLikes, TimeStamp, etc.</p>
 <p><strong>UserFollowos</strong>: UserdID1, UserID2</p>
 <p><strong>FavoriteTweets</strong>: UserID, TweetID, TimeStamp</p>
-<h2 id="5-high-level-design">5. High-level design</h2>
+
+<h2 id="5-high-level-design" class="anchor-link"><a href="#5-high-level-design">5. High-level design<span class="pilcrow">&nbsp;¶</span></a></h2>
 <p>画block diagram设计图。</p>
 <blockquote>
 <p>For Twitter, at a high level, we would need multiple application servers to serve all the read/write requests with load balancers in front of them for traffic distributions. If we’re assuming that we’ll have a lot more read traffic (as compared to write), we can decide to have separate servers for handling these scenarios. On the backend, we need an efficient database that can store all the tweets and can support a huge number of reads. We would also need a distributed file storage system to store photos and videos.</p>
 </blockquote>
-<h2 id="6-detailed-design">6. Detailed design</h2>
+
+<h2 id="6-detailed-design" class="anchor-link"><a href="#6-detailed-design">6. Detailed design<span class="pilcrow">&nbsp;¶</span></a></h2>
 <ul>
 <li>Since we’ll be storing a huge amount of data, how should we partition our data to distribute it to multiple databases? Should we try to store all the data of a user on the same database? What issue can it cause?</li>
 <li>How would we handle hot users, who tweet a lot or follow a lot of people?</li>
 <li>How much and at which layer should we introduce cache to speed things up?</li>
 </ul>
-<h2 id="7-bottlenecks">7. Bottlenecks</h2>
+
+<h2 id="7-bottlenecks" class="anchor-link"><a href="#7-bottlenecks">7. Bottlenecks<span class="pilcrow">&nbsp;¶</span></a></h2>
 <ul>
 <li>Is there any single point of failure in our system? What are we doing to mitigate it?</li>
 <li>Do we’ve enough replicas of the data, so that if we lose a few servers, we can still serve our users?</li>
 </ul>
 <hr>
-<h2 id="cap-theorem">CAP Theorem</h2>
+
+<h2 id="cap-theorem" class="anchor-link"><a href="#cap-theorem">CAP Theorem<span class="pilcrow">&nbsp;¶</span></a></h2>
 <p><a href="http://ksat.me/a-plain-english-introduction-to-cap-theorem/">A plain english introduction to CAP Theorem</a></p>
 <ul>
 <li>Consistency: 所有节点获取最新数据的能力</li>
@@ -135,14 +134,15 @@ generateTimeline<span style="color:#f92672">(</span>user_id<span style="color:#f
 <li>Partitioning: 分区容错性，在C和A之间做抉择</li>
 </ul>
 <hr>
-<h2 id="key-concepts">Key Concepts</h2>
+
+<h2 id="key-concepts" class="anchor-link"><a href="#key-concepts">Key Concepts<span class="pilcrow">&nbsp;¶</span></a></h2>
 <p><strong>1. Horizontal vs Vertical Scaling</strong></p>
 <ul>
 <li>纵向扩展 means increase the resources of a specific node, e.g. add additional memory to a server</li>
 <li>横向扩展 means increase the number of nodes, e.g. add additional servers thus decreasing the load on any one server</li>
 </ul>
 <p><strong>2. Load Balancer</strong>（负载均衡器）</p>
-<p>通常在一个scalable website 的前端会放置一个load balancer, this allows a system to distribute the load evenly so that one server doesn't crash and take down the whole system</p>
+<p>通常在一个scalable website 的前端会放置一个load balancer, this allows a system to distribute the load evenly so that one server doesn&rsquo;t crash and take down the whole system</p>
 <p><strong>3. Denormalization and NoSQL</strong></p>
 <p>Denormalization means adding redundant information into a database to speed up reads</p>
 <p><strong>4. Database Partitioning (Sharding)</strong></p>
@@ -166,25 +166,29 @@ generateTimeline<span style="color:#f92672">(</span>user_id<span style="color:#f
 <p>Write-heavy: queuing up the writes (but think about the potential failure)</p>
 <p>Read-heavy: cache大法好</p>
 <hr>
-<h2 id="example">EXAMPLE</h2>
+
+<h2 id="example" class="anchor-link"><a href="#example">EXAMPLE<span class="pilcrow">&nbsp;¶</span></a></h2>
 <p>设计Facebook, 实现find shortest path between two people 的功能</p>
 <p>Step1: 不考虑数据规模，利用bidirectional-BFS找两人之间最短路径</p>
 <p>Step 2: Scale up. 实现以下接口，</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">int</span> machine_index <span style="color:#f92672">=</span> getMachineIDForUser<span style="color:#f92672">(</span>personID<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">int</span> machine_index <span style="color:#f92672">=</span> getMachineIDForUser<span style="color:#f92672">(</span>personID<span style="color:#f92672">);</span>
 
 <span style="color:#75715e">//go to machine # machine_index
 </span><span style="color:#75715e"></span>
-Person friend <span style="color:#f92672">=</span> getPersonWithID<span style="color:#f92672">(</span>person_id<span style="color:#f92672">)</span><span style="color:#f92672">;</span>
+Person friend <span style="color:#f92672">=</span> getPersonWithID<span style="color:#f92672">(</span>person_id<span style="color:#f92672">);</span>
 </code></pre></div><p>首先找server中存储personID的机器ID，再从机器中找到对应的人</p>
 <p>Step 3: Optimization.</p>
 <ul>
 <li>Reduce machine jumps: If 5 of my friends live on the same machine, I should look them up all at once</li>
 <li>Smart division of people and machines. While dividing people across machines, try to divide them by country, city, state, and so on</li>
 <li>&hellip;</li>
-</ul></div>
+</ul></article>
+        
 
         
-        <div class="section bottom-menu">
+        
+        <nav role="navigation" class="flex-container bottom-menu">
+            
 <hr />
 <p>
 
@@ -204,18 +208,28 @@ Person friend <span style="color:#f92672">=</span> getPersonWithID<span style="c
             &#183; 
             <a href="/about">From my telling</a>
         
-    
-    &#183; 
-    <a href="https://GenXXXX.github.io/">
-        home
-    </a>
-
-</p></div>
+            &#183; 
+            <a href="/gallery">Gallery</a>
         
+    
+    
+    
+        &#183; 
+        <a href="/">
+            home
+        </a>
+    
 
-        <div class="section footer">No more knowledge can be extracted from my telling
-</div>
-    </div>
+</p>
+        </nav>
+        
+        
+    </main>
+    
+    <footer class="flex-container footer">No more knowledge can be extracted from my telling
+</footer>
+    
+    
 </body>
 
 </html>

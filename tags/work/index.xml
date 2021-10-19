@@ -6,18 +6,14 @@
     <description>Recent content in Work on 白马灰马</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Feb 2017 00:14:19 -0700</lastBuildDate>
-    
-	<atom:link href="https://GenXXXX.github.io/tags/work/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 28 Feb 2017 00:14:19 -0700</lastBuildDate><atom:link href="https://GenXXXX.github.io/tags/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What we talk about when we talk about Hedging</title>
       <link>https://GenXXXX.github.io/hack/hedge/</link>
       <pubDate>Tue, 28 Feb 2017 00:14:19 -0700</pubDate>
       
       <guid>https://GenXXXX.github.io/hack/hedge/</guid>
-      <description>&lt;p&gt;After a 4-hour meeting with Joel, I finally understood the basic ideas about how the so called hedging works. Although I&#39;m not going to do a data scientist&#39;s work, however, in review of the automatic trading platform I&#39;m about to build, it&#39;s supposed that I get a rough idea about the mechanisms of a hedge fund. So here are some of my memos.&lt;/p&gt;</description>
+      <description>&lt;p&gt;After a 4-hour meeting with Joel, I finally understood the basic ideas about how the so called hedging works. Although I&amp;rsquo;m not going to do a data scientist&amp;rsquo;s work, however, in review of the automatic trading platform I&amp;rsquo;m about to build, it&amp;rsquo;s supposed that I get a rough idea about the mechanisms of a hedge fund. So here are some of my memos.&lt;/p&gt;</description>
     </item>
     
   </channel>

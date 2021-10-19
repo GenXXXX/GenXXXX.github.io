@@ -6,20 +6,16 @@
     <description>Recent content in Operating Systems on 白马灰马</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Dec 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://GenXXXX.github.io/tags/operating-systems/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 13 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://GenXXXX.github.io/tags/operating-systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Operating Systems 知识速记</title>
       <link>https://GenXXXX.github.io/hack/os/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://GenXXXX.github.io/hack/os/</guid>
-      <description>0. Concepts Process: Program under execution
+      <description>0. Concepts&amp;nbsp;¶ Process: Program under execution
 Thread: Smallest sequence of programmed instructions
-Virtual Memory: the memory as viewed by the process. Each process believes it has a contiguous chunk of memory starting at location zero (Truman&#39;s virtual memory).
+Virtual Memory: the memory as viewed by the process. Each process believes it has a contiguous chunk of memory starting at location zero (Truman&amp;rsquo;s virtual memory).
 Semaphore: a variable or abstract data type used to control access to a common resource by multiple processes in a concurrent system
 Deadlock: A deadlock occurs when every member of a set of processes is waiting for an event that can only be caused by a member of the set</description>
     </item>
